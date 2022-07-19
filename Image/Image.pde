@@ -8,7 +8,7 @@ void setup()
   //CANVAS
 size (750, 500); //Landscape
 //
- loadImage("../Images Used/ Landscape & Square Images/R.png "); //Dimensions: width 960, height 650
+ loadImage("R.png "); //Dimensions: width 960, height 650
 //Note: Dimensions are found in the image file / Right Click / Properties / Details
 //Alogrithm: Find the larger dimension for aspect ration (comparison of two numbers)
 int picWidth= 960;
