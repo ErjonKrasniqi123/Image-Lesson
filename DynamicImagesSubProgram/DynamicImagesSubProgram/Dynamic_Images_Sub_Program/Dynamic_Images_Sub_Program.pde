@@ -1,7 +1,5 @@
 //Global Variables
 PImage pic1, pic2;
-
-//imageWidthRatio=0.0, imageHeightRatio=0.0, picWidthAdjusted, picHeightAdjusted;
 //
 void setup()
 {
@@ -9,8 +7,7 @@ void setup()
 size (750, 500); //Landscape
 //
  populatingVariables();
-//
-imageDraw ();
+ imageDraw ();
 //
 }//End setup
 //
@@ -20,12 +17,12 @@ void draw() {//Note: DRAW Loop repeats 60 time/second static images should be in
 //
 void keyPressed() 
 {
-  
+  rect(0,0,width,height);
 }//End keyPressed
 //
 void mousePressed() 
 {
-  
+  imageDraw ();
 }//End mousePressed
 //
 //End MAIN Program

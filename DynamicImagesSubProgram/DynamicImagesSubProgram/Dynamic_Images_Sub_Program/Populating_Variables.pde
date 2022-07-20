@@ -5,7 +5,7 @@ float picWidthAdjusted2, picHeightAdjusted2;
 Boolean  widthLarger1 = false, heightLarger1 = false;
 Boolean  widthLarger2 = false, heightLarger2 = false;
 
-void populatingVariables() {}//End populatingVariables
+void populatingVariables() {//End populatingVariables
  pic1= loadImage("R.png"); //Dimensions: width 960, height 650
  pic2 = loadImage("OIP.jpg"); //Dimensions: width 474, height 296
 //Note: Dimensions are found in the image file / Right Click / Properties / Details
@@ -76,4 +76,5 @@ println(imageX1, imageY1, picWidthAdjusted1,  picHeightAdjusted1);//Note: printl
 picWidthAdjusted2= imageWidth2* imageWidthRatio2;
 picHeightAdjusted2= imageHeight2 * imageHeightRatio2;
 println(imageX2, imageY2, picWidthAdjusted2,  picHeightAdjusted2);//Note: println() also verifies decimal places, complier will trunca
+}
 //End populating variables
